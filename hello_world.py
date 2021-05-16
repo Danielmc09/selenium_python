@@ -27,10 +27,10 @@ class HelloWorld(unittest.TestCase):
     def test_hello_world(cls):
         driver = cls.driver
         #le damos la direccion para ejecutar
-        driver.get('https://emprendedoras.elearning.bavaria.co/')
+        driver.get('https://www.platzi.com')
 
-    def test_visit_platzi(cls):
-        cls.driver.get('https://www.platzi.com')
+    def test_visit_wikipedia(cls):
+        cls.driver.get('https://www.wikipedia.org')
 
         
 
