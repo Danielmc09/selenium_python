@@ -17,7 +17,7 @@ class HelloWorld(unittest.TestCase):
     @classmethod
     def setUp(cls):
         #chromedriver se descarga del navegador
-        cls.driver = webdriver.Chrome(executable_path = r'./chromedriver')
+        cls.driver = webdriver.Chrome(executable_path = './chromedriver')
         driver = cls.driver
         #le decimos a el navegador que espere 10 segundos
         driver.implicitly_wait(10)

@@ -49,7 +49,7 @@ class RegisterNewUser(unittest.TestCase):
         driver.implicitly_wait(1)
         last_name.send_keys('Test')
         driver.implicitly_wait(1)
-        email_address.send_keys('arqcftlothxuknlxkt@awdrt.com') #sacado de 10-minute mail
+        email_address.send_keys('test@test.com') 
         driver.implicitly_wait(1)
         password.send_keys('Test')
         driver.implicitly_wait(1)

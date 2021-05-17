@@ -5,7 +5,7 @@ from selenium import webdriver
 class HomePageTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(r'./chromedriver')
+        self.driver = webdriver.Chrome('./chromedriver')
         driver = self.driver
         driver.get('http://demo-store.seleniumacademy.com/')
         driver.maximize_window()
